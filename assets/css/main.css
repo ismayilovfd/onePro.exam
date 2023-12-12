@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding-top: 15px;
+  background-color: #EEEEEE;
+}
+header .numb {
+  display: flex;
+  gap: 8px;
+  color: grey;
+}
+header .numb i {
+  padding-top: 5px;
+}
+header .text {
+  display: flex;
+  gap: 8px;
+  color: grey;
+}
+header .text i {
+  padding-top: 5px;
+}
+header .icon {
+  display: flex;
+  justify-content: flex-end;
+}
+header .icon .icons {
+  display: flex;
+  gap: 12px;
+}
+header .icon i {
+  font-size: 24px;
+  color: grey;
+}
+
+main #onePro {
+  width: 100%;
+  height: fit-content;
+}
+main #onePro nav .container .navbar-brand {
+  font-size: 50px;
+  font-weight: 700;
+  color: #28B6E8;
+}
+main #onePro nav .container .links {
+  display: flex;
+  justify-content: flex-end;
+}
+main #onePro nav .container .navbar-nav {
+  font-size: 16px;
+  font-weight: 500;
+}
+main #business {
+  background-image: url(https://preview.colorlib.com/theme/onepro/img/slider/slide-1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main #business .businessText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: grey;
+}
+main #business .businessText button {
+  width: 170px;
+  padding: 15px;
+  background-color: #28B6E8;
+  border: none;
+  color: white;
+}
+main #ourProjects .container .ourText {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+main #ourProjects .container .ourText P {
+  width: 70%;
+}
+main #ourProjects .container .ourImages {
+  display: flex;
+  flex-wrap: wrap;
+}
+main #ourProjects .container .ourImages .image {
+  padding: 15px 0px;
+}
+main #ourProjects .container .ourImages .image img {
+  width: 100%;
+}
+main #ourProjects .container .ourText .links {
+  padding: 20px 0px;
+}
+main #ourProjects .container .ourText .links a {
+  text-decoration: none;
+  padding: 0px 10px;
+  color: black;
+}
